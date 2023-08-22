@@ -7,9 +7,9 @@ A simple class to build feedforward neural networks
 ```python
 model = FNN(inputs = 4)
 
-model.addLayer(4, Activation.RELU)
-model.addLayer(3, Activation.SIGMOID)
-model.addLayer(3, Activation.SOFTMAX)
+model.addLayer(neurons = 4, Activation.RELU)
+model.addLayer(neurons = 3, Activation.SIGMOID)
+model.addLayer(neurons = 3, Activation.SOFTMAX)
 
 model.train(x_train, y_train, epochs = 10000, rate = .01, batch_size = 5)
 ```
@@ -24,6 +24,6 @@ model.train(x_train, y_train, epochs = 10000, rate = .01, batch_size = 5)
 - Mean Squared Error [TODO]
 
 ### Optimization
-- Stochastic gradient descent
+- Stochastic Gradient Descent
 - Mini-batch
 - Batch
