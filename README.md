@@ -24,12 +24,6 @@ model.train(x_train, y_train, epochs = 10000, rate = .01, batch_size = 5)
 - Mean Squared Error [TODO]
 
 ### Optimization
-- Stochastic Gradient Descent : ```python
-batch_size = 1
-```
-- Mini-batch : ```python
-batch_size = n
-``` 
-- Batch :  ```python
-batch_size = len(x_train)
-```
+- Stochastic Gradient Descent : `batch_size = 1`
+- Mini-batch : `batch_size = n` 
+- Batch :  `batch_size = len(x_train)`
