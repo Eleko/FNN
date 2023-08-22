@@ -2,8 +2,12 @@
 
 A simple class to build feedforward neural networks
 
-### Usage
+**Table of Contents**
+[TOCM]
 
+[TOC]
+
+### Usage
 #### Build
 ```python
 model = FNN(inputs = 4)
@@ -18,19 +22,21 @@ model.addLayer(neurons = 3, Activation.SOFTMAX)
 model.train(x_train, y_train, epochs = 10000, rate = .01, batch_size = 5)
 ```
 ---
-### Activation functions
+### Features
+
+#### Activation functions
 - Sigmoïd
 - ReLU
 - Softmax (only for last layer with Cross-Entropy)
 
-### Loss functions
+#### Loss functions
 - Categorical Cross Entropy (with softmax last layer)
 - Mean Squared Error [TODO]
 
-### Normalization
+#### Normalization
 - Rescaling (min-max normalization)
 
-### Gradient-based Optimization
+#### Gradient-based Optimization
 - Stochastic Gradient Descent : `batch_size = 1`
 - Mini-batch : `batch_size = n` 
 - Batch :  `batch_size = len(x_train.index)`
