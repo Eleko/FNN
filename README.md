@@ -31,3 +31,8 @@ model.train(x_train, y_train, epochs = 10000, rate = .01, batch_size = 5)
 - Stochastic Gradient Descent : `batch_size = 1`
 - Mini-batch : `batch_size = n` 
 - Batch :  `batch_size = len(x_train.index)`
+
+### Requirements
+- numpy
+- pandas
+- matplotlib
