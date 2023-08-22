@@ -4,17 +4,19 @@ A simple class to build feedforward neural networks
 
 ### Usage
 
+#### Build
 ```python
 model = FNN(inputs = 4)
-
 model.normalize(x = True, y = False)
 model.addLayer(neurons = 4, Activation.RELU)
 model.addLayer(neurons = 3, Activation.SIGMOID)
 model.addLayer(neurons = 3, Activation.SOFTMAX)
-
-model.train(x_train, y_train, epochs = 10000, rate = .01, batch_size = 5)
 ```
 
+#### Train
+```python
+model.train(x_train, y_train, epochs = 10000, rate = .01, batch_size = 5)
+```
 
 ### Activation functions
 - Sigmoïd
