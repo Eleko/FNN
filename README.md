@@ -17,11 +17,11 @@ model.train(x_train, y_train, epochs = 10000, rate = .01, batch_size = 5)
 ### Activation functions
 - Sigmoïd
 - ReLU
-- Softmax (only for last layer with cross-entropy)
+- Softmax (only for last layer with Cross-Entropy)
 
 ### Loss functions
 - Categorical Cross Entropy (with softmax last layer)
-- Mean squared error [TODO]
+- Mean Squared Error [TODO]
 
 ### Optimization
 - Stochastic gradient descent
