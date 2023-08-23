@@ -9,11 +9,11 @@ A simple tool to build and train feedforward neural networks from-scratch</br>
 #### Build
 
 ```python
-model = FNN(inputs = 4, lossFunction = Loss.CE)
+model = FNN(Loss.CE, inputs = 4)
 model.normalize(x = True, y = False)
-model.addLayer(neurons = 4, Activation.RELU)
-model.addLayer(neurons = 3, Activation.SIGMOID)
-model.addLayer(neurons = 3, Activation.SOFTMAX)
+model.addLayer(Activation.RELU, neurons = 4)
+model.addLayer(Activation.SIGMOID, neurons = 3)
+model.addLayer(Activation.SOFTMAX, neurons = 3)
 ```
 #### Train
 
