@@ -32,16 +32,22 @@ model.predict(x_test)
 ```python
 model.test(y_test)
 ```
+</br>
 
 > *y_train*, *y_test* : `pandas.core.series.Series`  
 > *x_train*, *x_test* : `pandas.core.frame.DataFrame`
 
 ---
-  
-[Usage](#usage) 
+
+ <div align="center">
+   
+ [Usage](#usage) 
 | [Features](#features) 
 | [Requirements](#requirements) 
 | [Notebook](FNN.ipynb) 
+ 
+ </div>
+
 
 <a name="features"/>
 
