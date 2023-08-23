@@ -21,6 +21,21 @@ model.addLayer(neurons = 3, Activation.SOFTMAX)
 model.train(x_train, y_train, epochs = 10000, rate = .01, batch_size = 5)
 ```
 
+#### Predict
+
+```python
+model.predict(x_test)
+```
+
+#### Test
+
+```python
+model.test(y_test)
+```
+
+> *y_train*, *y_test* : `pandas.core.series.Series`  
+> *x_train*, *x_test* : `pandas.core.frame.DataFrame`
+
 ---
   
 [Usage](#usage) 
