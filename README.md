@@ -2,15 +2,6 @@
 
 A simple class to build feedforward neural networks
 
----
-
-#### Table of Contents  
-[Usage](#usage)  
-[Features](#features)  
-[Requirements](#requirements)  
-
----
-
 <a name="usage"/>
 
 ### Usage
@@ -29,6 +20,13 @@ model.addLayer(neurons = 3, Activation.SOFTMAX)
 ```python
 model.train(x_train, y_train, epochs = 10000, rate = .01, batch_size = 5)
 ```
+---
+
+#### Table of Contents  
+[Usage](#usage)  
+[Features](#features)  
+[Requirements](#requirements)  
+
 ---
 
 <a name="features"/>
