@@ -9,7 +9,7 @@ A simple class to build and train feedforward neural networks</br>
 #### Build
 
 ```python
-model = FNN(inputs = 4)
+model = FNN(inputs = 4, lossFunction = Loss.CE)
 model.normalize(x = True, y = False)
 model.addLayer(neurons = 4, Activation.RELU)
 model.addLayer(neurons = 3, Activation.SIGMOID)
