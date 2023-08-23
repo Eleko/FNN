@@ -56,11 +56,11 @@ model.test(y_test)
 #### Activation functions
 - Sigmoïd
 - ReLU
-- Softmax (only for last layer with Cross-Entropy)
+- Softmax
 
 #### Loss functions
 - Categorical Cross Entropy (with softmax last layer)
-- Mean Squared Error [TODO]
+- Mean Squared Error
 
 #### Normalization
 - Rescaling (min-max normalization)
