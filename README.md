@@ -24,9 +24,9 @@ model.train(x_train, y_train, epochs = 10000, rate = .01, batch_size = 5)
 ---
 <div align="center">
   
-[Usage](#usage) 
-● [Features](#features) 
-● [Requirements](#requirements) 
+| [Usage](#usage) 
+| [Features](#features) 
+| [Requirements](#requirements) |
 
 </div>
 
