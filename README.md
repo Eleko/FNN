@@ -1,6 +1,6 @@
 <h1>FNN Builder</h1>
 
-A simple class to build feedforward neural networks</br>
+A simple class to build and train feedforward neural networks</br>
 
 <a name="usage"/>
 
