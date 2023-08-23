@@ -25,8 +25,8 @@ model.train(x_train, y_train, epochs = 10000, rate = .01, batch_size = 5)
   
 [Usage](#usage) 
 | [Features](#features) 
-| [Requirements](#requirements)| 
-[Notebook](FNN.ipynb)
+| [Requirements](#requirements) 
+| [Notebook](FNN.ipynb) 
 
 <a name="features"/>
 
