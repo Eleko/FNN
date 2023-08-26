@@ -1,6 +1,6 @@
 <h1>FNN Builder</h1>
 
-A simple tool to build and train feedforward neural networks from-scratch</br>
+A simple NumPy feedforward neural networks builder</br>
 
 <a name="usage"/>
 
